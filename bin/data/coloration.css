@@ -1,0 +1,27 @@
+graph {
+	fill-color: white;
+}
+
+node {
+    stroke-mode:  plain;
+    stroke-color: yellow;
+    text-background-mode: rounded-box;
+    text-background-color: white;
+    
+	
+}
+
+edge {
+	size: 2px;
+	text-mode: hidden;
+	shape: line;
+	fill-color: gray;
+	arrow-size: 3px, 2px;
+	z-index: 0;
+}
+
+node:clicked {
+	size:         20px, 25px;
+	fill-color: red;
+	
+}
